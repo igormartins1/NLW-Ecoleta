@@ -1,8 +1,14 @@
 html{
     font-family:'Roboto', sans-serif;
-}
 
-/*Box 
+    
+ body{
+
+ }
+
+
+
+/*Box MODEL
 
 Toda caixa  tem largura , altura , espaçamento, preenchimentos, 
 bordas, cor, fundo, maneira vista pelo html(Display)
@@ -11,7 +17,11 @@ alinhamentos.
 
 
 #page-home{
+    height: 100vh;
+
     background:url("../extras-aula-1/extras-aula-1/home-background.svg") no-repeat;
+    
+    background-position: 35vw bottom;
 
 }
 
