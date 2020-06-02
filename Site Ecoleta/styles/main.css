@@ -1,0 +1,32 @@
+html{
+    font-family:'Roboto', sans-serif;
+}
+
+/*Box 
+
+Toda caixa  tem largura , altura , espaçamento, preenchimentos, 
+bordas, cor, fundo, maneira vista pelo html(Display)
+alinhamentos.
+*/
+
+
+#page-home{
+    background:url("../extras-aula-1/extras-aula-1/home-background.svg") no-repeat;
+
+}
+
+#page-home .content{
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+
+ #page-home header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
